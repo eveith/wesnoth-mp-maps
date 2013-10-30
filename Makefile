@@ -1,5 +1,5 @@
 WESNOTH_VERSION = $(shell wesnoth --version 2>&1|grep 'Battle for Wesnoth v'|sed 's,.*v,,')
-WESNOTH_MAJOR_VERSION = $(shell echo $(WESNOTH_VERSION)|sed 's,\.[[:digit:]]\+?$$,,')
+WESNOTH_MAJOR_VERSION = $(shell echo $(WESNOTH_VERSION)|sed 's,\.[[:digit:]]\+\?$$,,')
 
 
 %.png: %.map
