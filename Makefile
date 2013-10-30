@@ -10,6 +10,13 @@ WESNOTH_MAJOR_VERSION = $(shell echo $(WESNOTH_VERSION)|sed 's,\.[[:digit:]]\+?$
 screenshots: $(addsuffix .png, $(basename $(wildcard *.map)))
 
 
+.PHONY: screenshots-small
+screenshots-small: screenshots
+	for i in *.map; do \
+		basename=$${i%*.map}; \
+		convert -quality 80% -size 1024x "$${basename}.png" "$${basename}-small.jpg"; \
+	done
+
 .PHONY: install
 install: $(wildcard *.map)
 	mkdir -p $(HOME)/.local/share/wesnoth/$(WESNOTH_MAJOR_VERSION)/editor/maps
@@ -18,4 +25,4 @@ install: $(wildcard *.map)
 
 .PHONY: clean
 clean:
-	$(RM) *.png
+	$(RM) *.png *.jpg
