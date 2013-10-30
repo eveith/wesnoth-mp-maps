@@ -7,7 +7,7 @@ WESNOTH_MAJOR_VERSION = $(shell echo $(WESNOTH_VERSION)|sed 's,\.[[:digit:]]\+?$
 
 
 .PHONY: screenshots
-screenshots: $(basename $(wildcard *.map)).png
+screenshots: $(addsuffix .png, $(basename $(wildcard *.map)))
 
 
 .PHONY: install
