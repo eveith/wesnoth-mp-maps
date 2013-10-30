@@ -1,4 +1,5 @@
-= The Battle for Wesnoth Multiplayer Maps
+The Battle for Wesnoth Multiplayer Maps
+=======================================
 
 This little archive contains a number of multiplayer maps and scenrios I
 created and maintain purely out of fun. Maps are currently not categorized,
@@ -8,7 +9,8 @@ If you like to contribute, clone this repository, make your changes and send a
 pull request. Feedback is, if course, also welcome! You can reach me under my
 pseudonym _Technaton_ on <http://forums.wesnoth.org>.
 
-== Screenshots & Installing
+Screenshots & Installing
+------------------------
 
 The simple Makefile contained in this archive allows to create screenshots of
 all maps using the `wesnoth --screenshot` command. Use
@@ -27,9 +29,10 @@ If you want to install all maps into your home directory, use:
 All maps (but not the screenshots, of course) are then copied to your
 `~/.local/share/wesnoth` directory for the current Wesnoth version.
 
-== Map Descriptions
+Map Descriptions
+----------------
 
-=== Dwarven Mines
+### Dwarven Mines
 
 Somewhere in the deserts, an old, long-abandoned dwarven mine lies. Two foes
 fight over the remains of this once lush land.
@@ -37,7 +40,7 @@ fight over the remains of this once lush land.
 A simple 1-on-1 map. The goal is to reach and hold the center. But many
 passages circumvent the old mine, so watch out or be flanked!
 
-=== Back to Back
+### Back to Back
 
 Two castles, separated by uncrossable mountains, and a fertile land:
 Everything could be good. But when two fight, there will be no peace.
