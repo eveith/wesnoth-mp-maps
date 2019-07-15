@@ -47,6 +47,6 @@ Everything could be good. But when two fight, there will be no peace.
 
 This map is a very dynamic one. The main catch is that you cannot reach your
 oppontent's castle directly, but have to use either the old mountain pass in
-the north or go via the forgotten castle in the southern swamp. Many abondoned
+the north or go via the forgotten castle in the southern swamp. Many abandoned
 forts allow you to move your king and still recruit troops. Choose your
 fighting grounds wisely!
